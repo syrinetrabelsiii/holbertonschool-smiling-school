@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'holberton_school-icon';
+    src: url('./holberton_school-icon.eot?sq4eq4');
+}
+
+:root {
+	--pc: #C271FF;
+}
+
+body,
+button,
+a {
+	font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+button:hover, button:active {
+	opacity: 0.9 !important;
+}
+
+button:focus {
+	outline: none;
+}
+
+a:hover, a:active, a.text-primary:hover {
+	color: var(--pc) !important;
+}
+
+.underline::after {
+	content: '';
+	background-color: white;
+	display: block;
+	width: 50px;
+	height: 2px;
+	border-radius: 999px;
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	transform: translateX(-50%);
+}
+
+.bg-primary {
+	background-color: var(--pc) !important;
+}
+
+.bg-dark {
+	background-color: #071629 !important;
+}
+
+.text-primary {
+	color: var(--pc) !important;
+}
+
+.text-dark {
+	color: #071629 !important;
+}
